@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailInformasiActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desa Pelangi"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/roboto_bold"
+        />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@id/judul"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/screenshot__49_" />
+
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambar"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="start"
+        android:text="Tentang Desa Pelangi"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Judul"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="start"
+        android:text="Warga RT 03 RW 07 Kelurahan Kranji Kecamatan Purwokerto Timur, ingin menyulap kampungnya yang sebelumnya terbilang kumuh menjadi Kampung Pelangi . Kegiatan diawali dengan bersih praja, menjelang Hari Jadi Banyumas ke 427 pada Minggu (4/2) warga berkeja bakti sampai malam hari. Mereka bergotong royong mengecat jalan masuk dan dinding SMP Negeri 1 Purwokerto dengan warna warni.
+    Ketua RT 03/RW 07 Risa Satriadi mengatakan, pengecatan kampung beride dasar pada pertemuan warga yang berkeinginan mengubah suasana lingkungan menjadi indah. Warga bersepakat untuk mengecat lingkungan dengan warna warni.
+“Warga bertekad untuk menciptakan lingkungan yang asri dan indah dipandang mata, serta menghilangkan kesan kumuh perkotaan, namun yang terpenting adalah meningkatkan kesadaran warga akan pentingnya kebersihan, kerja sama dan keindahan lingkungan,” "
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

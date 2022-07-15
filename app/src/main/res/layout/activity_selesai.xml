@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelesaiActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggapan Anda Telah Kami Kirim"
+        android:textColor="@color/white"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/roboto_bold"
+        />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/judul"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/check" />
+    
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_below="@id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Kembali"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:backgroundTint="@color/button"
+        />
+
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_back"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="Terimakasih Telah Menggunakan Aplikasi dari Kami"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_daftar.xml" value="0.11302083333333333" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_detail_informasi.xml" value="0.4" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_detail_kesehatan.xml" value="0.2" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_detail_wisata.xml" value="0.264" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_home.xml" value="0.152" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_informasi.xml" value="0.11302083333333333" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_informasi_kesehatan.xml" value="0.11302083333333333" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_laporan.xml" value="0.16799999999999998" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_layanan_publik.xml" value="0.2" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_login.xml" value="0.11302083333333333" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_main.xml" value="0.11302083333333333" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_postingan_warga.xml" value="0.2" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_selesai.xml" value="0.264" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_suket__akte__k_t_p_.xml" value="0.11302083333333333" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_wadah_aspirasi.xml" value="0.16799999999999998" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/layout/activity_wisata.xml" value="0.2" />
+        <entry key="..\:/SIMPEDA/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.124" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

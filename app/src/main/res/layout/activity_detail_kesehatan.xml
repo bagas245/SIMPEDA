@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailKesehatanActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informasi Kesehatan"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/roboto_bold"
+        />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@id/judul"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/infografis_update_data_corona_07032021_1" />
+
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_below="@id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="1 Juta Kasus Covid di Indonesia"
+        android:textSize="18sp"
+        android:gravity="start"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_bold"
+        />
+
+    <TextView
+        android:id="@+id/Deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Judul"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="start"
+        android:text="kasus positif Covid-19 di Indonesia mencapai 999.256 orang. Dari jumlah itu, sebanyak 809.488 orang dinyatakan sembuh dan 28.132 lainnya meninggal dunia.
+
+Lonjakan kasus positif Covid-19 terjadi sejak masuk Januari 2021. Jumlah kasus positif baru beberapa kali berada di atas angka 10 ribu dalam satu hari."
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

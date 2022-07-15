@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaporanActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        />
+
+    <TextView
+        android:id="@+id/JudulLaporan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laporan Masyarakat"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/roboto_bold"
+        />
+
+    <Button
+        android:id="@+id/BtnPosting"
+        android:layout_below="@+id/JudulLaporan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Postingan Warga"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/roboto_bold"
+        />
+
+    <Button
+        android:id="@+id/BtnWadah"
+        android:layout_below="@+id/BtnPosting"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Wadah Aspirasi"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/roboto_bold"
+        />
+
+</RelativeLayout>
